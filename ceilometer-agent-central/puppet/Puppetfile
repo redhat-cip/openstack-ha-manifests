@@ -1,0 +1,11 @@
+forge "http://forge.puppetlabs.com"
+
+mod "ceilometer",
+  :git => "git://github.com/stackforge/puppet-ceilometer.git"
+
+mod "puppetlabs/apt"
+mod "puppetlabs/corosync"
+#mod "puppetlabs/keystone"
+mod "puppetlabs/rabbitmq",
+  :git => "git://github.com/puppetlabs/puppetlabs-rabbitmq",
+  :ref => "44bb086c96bf2e100f8ad149877bc6f2bce53a10"

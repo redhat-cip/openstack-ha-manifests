@@ -1,0 +1,8 @@
+This is a simple example to setup ceilometer-agent-central as a highly
+available service with Corosync & Pacemaker. All is installed with Puppet, see
+the manifest : puppet/manifests/site.pp
+
+This example was tested on a Debian GNU/Linux Wheezy LXC container managed by
+Vagrant with the vagrant-lxc plugin. If you wish to use Vagrant with
+Virtualbox, you will need to add a host-only interface and change the
+'$::network_eth0' variable to '$::network_eth1'.
